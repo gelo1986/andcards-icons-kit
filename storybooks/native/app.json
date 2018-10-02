@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "AndCardsIconsKit",
+    "description": "andCards Icons Kit for React and React Native.",
+    "privacy": "public",
+    "sdkVersion": "25.0.0",
+    "version": "0.1.1",
+    "orientation": "portrait",
+    "primaryColor": "#ebe7e0"
+  }
+}
