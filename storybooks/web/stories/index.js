@@ -18,6 +18,7 @@ import Behance from 'andcards-icons-kit/Behance';
 import Beverage from 'andcards-icons-kit/Beverage';
 import Call from 'andcards-icons-kit/Call';
 import CallAlt from 'andcards-icons-kit/CallAlt';
+import CalendarExportAlt from 'andcards-icons-kit/CalendarExportAlt';
 import CalendarView from 'andcards-icons-kit/CalendarView';
 import CalendarViewAlt from 'andcards-icons-kit/CalendarViewAlt';
 import CameraAlt from 'andcards-icons-kit/CameraAlt';
@@ -74,6 +75,8 @@ import Locker from 'andcards-icons-kit/Locker';
 import Logout from 'andcards-icons-kit/Logout';
 import Medium from 'andcards-icons-kit/Medium';
 import MeetingRoom from 'andcards-icons-kit/MeetingRoom';
+import Membership from 'andcards-icons-kit/Membership';
+import MembershipAlt from 'andcards-icons-kit/MembershipAlt';
 import Microsoft from 'andcards-icons-kit/Microsoft';
 import Minus from 'andcards-icons-kit/Minus';
 import MinusAlt from 'andcards-icons-kit/MinusAlt';
@@ -140,6 +143,7 @@ import User from 'andcards-icons-kit/User';
 import UserAlt from 'andcards-icons-kit/UserAlt';
 import UserInvite from 'andcards-icons-kit/UserInvite';
 import Users from 'andcards-icons-kit/Users';
+import UsersAlt from 'andcards-icons-kit/UsersAlt';
 import Viber from 'andcards-icons-kit/Viber';
 import Warning from 'andcards-icons-kit/Warning';
 import Whatsapp from 'andcards-icons-kit/Whatsapp';
@@ -183,6 +187,7 @@ storiesOf('andcards-icons-kit', module)
       <div><Beverage color={COLOR} size={SIZE} />Beverage</div>
       <div><Call color={COLOR} size={SIZE} />Call</div>
       <div><CallAlt color={COLOR} size={SIZE} />CallAlt</div>
+      <div><CalendarExportAlt color={COLOR} size={SIZE} />CalendarExportAlt</div>
       <div><CalendarView color={COLOR} size={SIZE} />CalendarView</div>
       <div><CalendarViewAlt color={COLOR} size={SIZE} />CalendarViewAlt</div>
       <div><CameraAlt color={COLOR} size={SIZE} />CameraAlt</div>
@@ -225,6 +230,8 @@ storiesOf('andcards-icons-kit', module)
       <div><Locker color={COLOR} size={SIZE} />Locker</div>
       <div><Logout color={COLOR} size={SIZE} />Logout</div>
       <div><MeetingRoom color={COLOR} size={SIZE} />MeetingRoom</div>
+      <div><Membership color={COLOR} size={SIZE} />Membership</div>
+      <div><MembershipAlt color={COLOR} size={SIZE} />MembershipAlt</div>
       <div><Minus color={COLOR} size={SIZE} />Minus</div>
       <div><MinusAlt color={COLOR} size={SIZE} />MinusAlt</div>
       <div><More color={COLOR} size={SIZE} />More</div>
@@ -283,6 +290,7 @@ storiesOf('andcards-icons-kit', module)
       <div><UserAlt color={COLOR} size={SIZE} />UserAlt</div>
       <div><UserInvite color={COLOR} size={SIZE} />UserInvite</div>
       <div><Users color={COLOR} size={SIZE} />Users</div>
+      <div><UsersAlt color={COLOR} size={SIZE} />UsersAlt</div>
       <div><Warning color={COLOR} size={SIZE} />Warning</div>
       <div><World color={COLOR} size={SIZE} />World</div>
     </div>

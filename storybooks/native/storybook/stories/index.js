@@ -19,6 +19,7 @@ import Autoconnect from 'andcards-icons-kit/Autoconnect';
 import Behance from 'andcards-icons-kit/Behance';
 import Call from 'andcards-icons-kit/Call';
 import CallAlt from 'andcards-icons-kit/CallAlt';
+import CalendarExportAlt from 'andcards-icons-kit/CalendarExportAlt';
 import CalendarView from 'andcards-icons-kit/CalendarView';
 import CalendarViewAlt from 'andcards-icons-kit/CalendarViewAlt';
 import CameraAlt from 'andcards-icons-kit/CameraAlt';
@@ -73,6 +74,8 @@ import LockedAlt from 'andcards-icons-kit/LockedAlt';
 import Logout from 'andcards-icons-kit/Logout';
 import Medium from 'andcards-icons-kit/Medium';
 import MeetingRoom from 'andcards-icons-kit/MeetingRoom';
+import Membership from 'andcards-icons-kit/Membership';
+import MembershipAlt from 'andcards-icons-kit/MembershipAlt';
 import Microsoft from 'andcards-icons-kit/Microsoft';
 import Minus from 'andcards-icons-kit/Minus';
 import MinusAlt from 'andcards-icons-kit/MinusAlt';
@@ -96,6 +99,7 @@ import Remove from 'andcards-icons-kit/Remove';
 import RoomBooking from 'andcards-icons-kit/RoomBooking';
 import RotateLeft from 'andcards-icons-kit/RotateLeft';
 import RotateRight from 'andcards-icons-kit/RotateRight';
+import RoundTheClock from 'andcards-icons-kit/RoundTheClock';
 import Save from 'andcards-icons-kit/Save';
 import Scan from 'andcards-icons-kit/Scan';
 import ScanAlt from 'andcards-icons-kit/ScanAlt';
@@ -134,6 +138,7 @@ import User from 'andcards-icons-kit/User';
 import UserAlt from 'andcards-icons-kit/UserAlt';
 import UserInvite from 'andcards-icons-kit/UserInvite';
 import Users from 'andcards-icons-kit/Users';
+import UsersAlt from 'andcards-icons-kit/UsersAlt';
 import Viber from 'andcards-icons-kit/Viber';
 import Warning from 'andcards-icons-kit/Warning';
 import Whatsapp from 'andcards-icons-kit/Whatsapp';
@@ -160,6 +165,7 @@ storiesOf('andcards-icons-kit', module)
       <Autoconnect color={COLOR} size={SIZE} onPress={action('clicked')} />
       <Call color={COLOR} size={SIZE} onPress={action('clicked')} />
       <CallAlt color={COLOR} size={SIZE} onPress={action('clicked')} />
+      <CalendarExportAlt color={COLOR} size={SIZE} onPress={action('clicked')} />
       <CalendarView color={COLOR} size={SIZE} onPress={action('clicked')} />
       <CalendarViewAlt color={COLOR} size={SIZE} onPress={action('clicked')} />
       <CameraAlt color={COLOR} size={SIZE} onPress={action('clicked')} />
@@ -200,6 +206,8 @@ storiesOf('andcards-icons-kit', module)
       <LockedAlt color={COLOR} size={SIZE} onPress={action('clicked')} />
       <Logout color={COLOR} size={SIZE} onPress={action('clicked')} />
       <MeetingRoom color={COLOR} size={SIZE} onPress={action('clicked')} />
+      <Membership color={COLOR} size={SIZE} onPress={action('clicked')} />
+      <MembershipAlt color={COLOR} size={SIZE} onPress={action('clicked')} />
       <Minus color={COLOR} size={SIZE} onPress={action('clicked')} />
       <MinusAlt color={COLOR} size={SIZE} onPress={action('clicked')} />
       <More color={COLOR} size={SIZE} onPress={action('clicked')} />
@@ -220,6 +228,7 @@ storiesOf('andcards-icons-kit', module)
       <RoomBooking color={COLOR} size={SIZE} onPress={action('clicked')} />
       <RotateLeft color={COLOR} size={SIZE} onPress={action('clicked')} />
       <RotateRight color={COLOR} size={SIZE} onPress={action('clicked')} />
+      <RoundTheClock color={COLOR} size={SIZE} onPress={action('clicked')} />
       <Save color={COLOR} size={SIZE} onPress={action('clicked')} />
       <Scan color={COLOR} size={SIZE} onPress={action('clicked')} />
       <ScanAlt color={COLOR} size={SIZE} onPress={action('clicked')} />
@@ -254,6 +263,7 @@ storiesOf('andcards-icons-kit', module)
       <UserAlt color={COLOR} size={SIZE} onPress={action('clicked')} />
       <UserInvite color={COLOR} size={SIZE} onPress={action('clicked')} />
       <Users color={COLOR} size={SIZE} onPress={action('clicked')} />
+      <UsersAlt color={COLOR} size={SIZE} onPress={action('clicked')} />
       <Warning color={COLOR} size={SIZE} onPress={action('clicked')} />
       <World color={COLOR} size={SIZE} onPress={action('clicked')} />
     </View>
