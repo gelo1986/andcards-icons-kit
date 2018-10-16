@@ -1,16 +1,16 @@
-const path = require('path');
+const path = require("path");
 
 module.exports = {
   resolve: {
-    extensions: ['.js', '.jsx'],
+    extensions: [".js", ".jsx"]
   },
   module: {
     rules: [
       {
         test: /\.jsx?$/,
-        loader: 'babel-loader',
-        exclude: /node_modules/,
-      },
-    ],
-  },
+        loader: "babel-loader",
+        exclude: /node_modules/
+      }
+    ]
+  }
 };

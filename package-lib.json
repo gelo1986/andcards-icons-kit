@@ -15,12 +15,12 @@
     "*"
   ],
   "dependencies": {
-    "babel-runtime": "^6.23.0",
-    "prop-types": "^15.5.10"
+    "babel-runtime": "^6.23.0"
   },
   "peerDependencies": {
-    "react": "^16.0.0",
-    "react-native": "^0.55.4",
-    "svgs": "^3.1.2"
+    "prop-types": "^15.0.0",
+    "react": "^0.16.0.0",
+    "react-native": "^0.50.0",
+    "svgs": "^3.0.0"
   }
 }
