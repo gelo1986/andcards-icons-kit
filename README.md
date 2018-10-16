@@ -37,7 +37,7 @@ import Apple from "andcards-icons-kit/Apple";
 | prop    | type     | default value |
 | ------- | -------- | ------------- |
 | `color` | `string` | #000000       |
-| `size`  | `number` | '20'          |
+| `size`  | `number` | 20          |
 
 ## License
 
