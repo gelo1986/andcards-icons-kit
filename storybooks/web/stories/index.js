@@ -3,6 +3,7 @@ import { setAddon, storiesOf } from "@storybook/react";
 import { action } from "@storybook/addon-actions";
 import { withInfo } from "@storybook/addon-info";
 import Add from "andcards-icons-kit/Add";
+import Admin from "andcards-icons-kit/Admin";
 import Apple from "andcards-icons-kit/Apple";
 import AppleAlt from "andcards-icons-kit/AppleAlt";
 import ArrowDown from "andcards-icons-kit/ArrowDown";
@@ -134,6 +135,10 @@ storiesOf("andcards-icons-kit", module)
         <div>
           <Add color={COLOR} size={SIZE} />
           Add
+        </div>
+        <div>
+          <Admin color={COLOR} size={SIZE} />
+          Admin
         </div>
         <div>
           <ArrowDown color={COLOR} size={SIZE} />

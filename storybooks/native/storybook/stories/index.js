@@ -3,6 +3,7 @@ import { action } from "@storybook/addon-actions";
 import React from "react";
 import { View } from "react-native";
 import Add from "andcards-icons-kit/Add";
+import Admin from "andcards-icons-kit/Admin";
 import Apple from "andcards-icons-kit/Apple";
 import AppleAlt from "andcards-icons-kit/AppleAlt";
 import ArrowDown from "andcards-icons-kit/ArrowDown";
@@ -111,6 +112,7 @@ storiesOf("andcards-icons-kit", module)
   .add("General", () => (
     <View style={{ flexWrap: "wrap", flexDirection: "row" }}>
       <Add color={COLOR} size={SIZE} onPress={action("clicked")} />
+      <Admin color={COLOR} size={SIZE} onPress={action("clicked")} />
       <ArrowDown color={COLOR} size={SIZE} onPress={action("clicked")} />
       <ArrowLeft color={COLOR} size={SIZE} onPress={action("clicked")} />
       <ArrowRight color={COLOR} size={SIZE} onPress={action("clicked")} />
