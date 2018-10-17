@@ -46,8 +46,8 @@
     "prettier": "^1.14.3",
     "prop-types": "^15.5.10",
     "react": "^16.0.0",
-    "react-native": "^0.55.4",
+    "react-native": "^0.57.3",
     "rimraf": "^2.3.4",
-    "svgs": "^3.1.2"
+    "svgs": "^4.0.0"
   }
 }
