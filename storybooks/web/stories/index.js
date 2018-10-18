@@ -2,63 +2,62 @@ import infoAddon from "@storybook/addon-info";
 import { setAddon, storiesOf } from "@storybook/react";
 import { action } from "@storybook/addon-actions";
 import { withInfo } from "@storybook/addon-info";
-import Add from "andcards-icons-kit/Add";
+import AddAlt from "andcards-icons-kit/AddAlt";
 import Admin from "andcards-icons-kit/Admin";
 import Apple from "andcards-icons-kit/Apple";
 import AppleAlt from "andcards-icons-kit/AppleAlt";
-import ArrowDown from "andcards-icons-kit/ArrowDown";
-import ArrowLeft from "andcards-icons-kit/ArrowLeft";
-import ArrowRight from "andcards-icons-kit/ArrowRight";
-import ArrowUp from "andcards-icons-kit/ArrowUp";
+import ArrowDownAlt from "andcards-icons-kit/ArrowDownAlt";
+import ArrowLeftAlt from "andcards-icons-kit/ArrowLeftAlt";
+import ArrowRightAlt from "andcards-icons-kit/ArrowRightAlt";
+import ArrowUpAlt from "andcards-icons-kit/ArrowUpAlt";
 import Behance from "andcards-icons-kit/Behance";
-import Beverage from "andcards-icons-kit/Beverage";
+import BeverageAlt from "andcards-icons-kit/BeverageAlt";
 import Call from "andcards-icons-kit/Call";
 import CallAlt from "andcards-icons-kit/CallAlt";
 import Calendar from "andcards-icons-kit/Calendar";
 import CalendarAlt from "andcards-icons-kit/CalendarAlt";
 import CalendarExportAlt from "andcards-icons-kit/CalendarExportAlt";
 import CameraAlt from "andcards-icons-kit/CameraAlt";
-import Cancel from "andcards-icons-kit/Cancel";
-import CardBroken from "andcards-icons-kit/CardBroken";
+import CancelAlt from "andcards-icons-kit/CancelAlt";
+import CardBrokenAlt from "andcards-icons-kit/CardBrokenAlt";
 import Cards from "andcards-icons-kit/Cards";
 import CardsAlt from "andcards-icons-kit/CardsAlt";
-import Copy from "andcards-icons-kit/Copy";
-import CreditCard from "andcards-icons-kit/CreditCard";
+import CreditCardAlt from "andcards-icons-kit/CreditCardAlt";
 import Delete from "andcards-icons-kit/Delete";
 import DeleteAlt from "andcards-icons-kit/DeleteAlt";
 import Deleted from "andcards-icons-kit/Deleted";
 import DeletedAlt from "andcards-icons-kit/DeletedAlt";
-import Done from "andcards-icons-kit/Done";
-import Email from "andcards-icons-kit/Email";
+import DoneAlt from "andcards-icons-kit/DoneAlt";
+import EmailAlt from "andcards-icons-kit/EmailAlt";
 import EditAlt from "andcards-icons-kit/EditAlt";
 import Facebook from "andcards-icons-kit/Facebook";
 import Facetime from "andcards-icons-kit/Facetime";
 import FacetimeAlt from "andcards-icons-kit/FacetimeAlt";
 import Favorites from "andcards-icons-kit/Favorites";
 import FavoritesAlt from "andcards-icons-kit/FavoritesAlt";
-import FixedDesk from "andcards-icons-kit/FixedDesk";
+import FixedDeskAlt from "andcards-icons-kit/FixedDeskAlt";
 import Google from "andcards-icons-kit/Google";
 import Github from "andcards-icons-kit/Github";
-import HotDesk from "andcards-icons-kit/HotDesk";
+import HotDeskAlt from "andcards-icons-kit/HotDeskAlt";
 import Info from "andcards-icons-kit/Info";
 import InfoAlt from "andcards-icons-kit/InfoAlt";
 import Instagram from "andcards-icons-kit/Instagram";
 import InstagramAlt from "andcards-icons-kit/InstagramAlt";
 import KakaoPlus from "andcards-icons-kit/KakaoPlus";
 import Kakaotalk from "andcards-icons-kit/Kakaotalk";
-import Kitchen from "andcards-icons-kit/Kitchen";
-import Like from "andcards-icons-kit/Like";
+import KitchenAlt from "andcards-icons-kit/KitchenAlt";
+import LikeAlt from "andcards-icons-kit/LikeAlt";
 import Linkedin from "andcards-icons-kit/Linkedin";
 import LinkedinAlt from "andcards-icons-kit/LinkedinAlt";
-import List from "andcards-icons-kit/List";
+import ListAlt from "andcards-icons-kit/ListAlt";
 import ListView from "andcards-icons-kit/ListView";
 import ListViewAlt from "andcards-icons-kit/ListViewAlt";
 import Location from "andcards-icons-kit/Location";
 import LocationAlt from "andcards-icons-kit/LocationAlt";
-import Locker from "andcards-icons-kit/Locker";
-import Logout from "andcards-icons-kit/Logout";
+import LockerAlt from "andcards-icons-kit/LockerAlt";
+import LogoutAlt from "andcards-icons-kit/LogoutAlt";
 import Medium from "andcards-icons-kit/Medium";
-import MeetingRoom from "andcards-icons-kit/MeetingRoom";
+import MeetingRoomAlt from "andcards-icons-kit/MeetingRoomAlt";
 import Membership from "andcards-icons-kit/Membership";
 import MembershipAlt from "andcards-icons-kit/MembershipAlt";
 import Microsoft from "andcards-icons-kit/Microsoft";
@@ -67,22 +66,22 @@ import MoreAlt from "andcards-icons-kit/MoreAlt";
 import Naver from "andcards-icons-kit/Naver";
 import Notices from "andcards-icons-kit/Notices";
 import NoticesAlt from "andcards-icons-kit/NoticesAlt";
-import Parking from "andcards-icons-kit/Parking";
-import Pass from "andcards-icons-kit/Pass";
-import Phone from "andcards-icons-kit/Phone";
-import Photos from "andcards-icons-kit/Photos";
-import Pinned from "andcards-icons-kit/Pinned";
+import ParkingAlt from "andcards-icons-kit/ParkingAlt";
+import PassAlt from "andcards-icons-kit/PassAlt";
+import PhoneAlt from "andcards-icons-kit/PhoneAlt";
+import PhotosAlt from "andcards-icons-kit/PhotosAlt";
+import PinAlt from "andcards-icons-kit/PinAlt";
 import Pinterest from "andcards-icons-kit/Pinterest";
-import Printer from "andcards-icons-kit/Printer";
+import PrinterAlt from "andcards-icons-kit/PrinterAlt";
 import Redhat from "andcards-icons-kit/Redhat";
-import ResetSetting from "andcards-icons-kit/ResetSetting";
-import Remove from "andcards-icons-kit/Remove";
-import RoomBooking from "andcards-icons-kit/RoomBooking";
-import RotateLeft from "andcards-icons-kit/RotateLeft";
-import RotateRight from "andcards-icons-kit/RotateRight";
-import RoundTheClock from "andcards-icons-kit/RoundTheClock";
-import Save from "andcards-icons-kit/Save";
-import Search from "andcards-icons-kit/Search";
+import RemoveAlt from "andcards-icons-kit/RemoveAlt";
+import ResetSettingAlt from "andcards-icons-kit/ResetSettingAlt";
+import RoomBookingAlt from "andcards-icons-kit/RoomBookingAlt";
+import RotateLeftAlt from "andcards-icons-kit/RotateLeftAlt";
+import RotateRightAlt from "andcards-icons-kit/RotateRightAlt";
+import RoundTheClockAlt from "andcards-icons-kit/RoundTheClockAlt";
+import SaveAlt from "andcards-icons-kit/SaveAlt";
+import SearchAlt from "andcards-icons-kit/SearchAlt";
 import Settings from "andcards-icons-kit/Settings";
 import SettingsAlt from "andcards-icons-kit/SettingsAlt";
 import Share from "andcards-icons-kit/Share";
@@ -90,25 +89,24 @@ import ShareAlt from "andcards-icons-kit/ShareAlt";
 import Skype from "andcards-icons-kit/Skype";
 import SmartLock from "andcards-icons-kit/SmartLock";
 import Statistics from "andcards-icons-kit/Statistics";
-import Subscribe from "andcards-icons-kit/Subscribe";
-import Switch from "andcards-icons-kit/Switch";
-import Tablet from "andcards-icons-kit/Tablet";
+import SubscribeAlt from "andcards-icons-kit/SubscribeAlt";
+import SwitchAlt from "andcards-icons-kit/SwitchAlt";
+import TabletAlt from "andcards-icons-kit/TabletAlt";
 import Telegram from "andcards-icons-kit/Telegram";
-import Time from "andcards-icons-kit/Time";
-import Translation from "andcards-icons-kit/Translation";
-import Triangle from "andcards-icons-kit/Triangle";
+import TimeAlt from "andcards-icons-kit/TimeAlt";
+import TranslationAlt from "andcards-icons-kit/TranslationAlt";
 import Twitter from "andcards-icons-kit/Twitter";
 import Ubuntu from "andcards-icons-kit/Ubuntu";
 import User from "andcards-icons-kit/User";
 import UserAlt from "andcards-icons-kit/UserAlt";
-import UserInvite from "andcards-icons-kit/UserInvite";
+import UserInviteAlt from "andcards-icons-kit/UserInviteAlt";
 import Users from "andcards-icons-kit/Users";
 import UsersAlt from "andcards-icons-kit/UsersAlt";
 import Viber from "andcards-icons-kit/Viber";
-import Warning from "andcards-icons-kit/Warning";
+import WarningAlt from "andcards-icons-kit/WarningAlt";
 import Whatsapp from "andcards-icons-kit/Whatsapp";
 import WhatsappAlt from "andcards-icons-kit/WhatsappAlt";
-import World from "andcards-icons-kit/World";
+import WorldAlt from "andcards-icons-kit/WorldAlt";
 import Yahoo from "andcards-icons-kit/Yahoo";
 import Youtube from "andcards-icons-kit/Youtube";
 import React from "react";
@@ -128,37 +126,37 @@ storiesOf("andcards-icons-kit", module)
           fontFamily: "sans-serif",
           fontSize: 10,
           textAlign: "center",
-          gridGap: 30,
+          gridGap: 40,
           gridTemplateColumns: "repeat(auto-fit, 50px)"
         }}
       >
         <div>
-          <Add color={COLOR} size={SIZE} />
-          Add
+          <AddAlt color={COLOR} size={SIZE} />
+          AddAlt
         </div>
         <div>
           <Admin color={COLOR} size={SIZE} />
           Admin
         </div>
         <div>
-          <ArrowDown color={COLOR} size={SIZE} />
-          ArrowDown
+          <ArrowDownAlt color={COLOR} size={SIZE} />
+          ArrowDownAlt
         </div>
         <div>
-          <ArrowLeft color={COLOR} size={SIZE} />
-          ArrowLeft
+          <ArrowLeftAlt color={COLOR} size={SIZE} />
+          ArrowLeftAlt
         </div>
         <div>
-          <ArrowRight color={COLOR} size={SIZE} />
-          ArrowRight
+          <ArrowRightAlt color={COLOR} size={SIZE} />
+          ArrowRightAlt
         </div>
         <div>
-          <ArrowUp color={COLOR} size={SIZE} />
-          ArrowUp
+          <ArrowUpAlt color={COLOR} size={SIZE} />
+          ArrowUpAlt
         </div>
         <div>
-          <Beverage color={COLOR} size={SIZE} />
-          Beverage
+          <BeverageAlt color={COLOR} size={SIZE} />
+          BeverageAlt
         </div>
         <div>
           <Call color={COLOR} size={SIZE} />
@@ -185,20 +183,16 @@ storiesOf("andcards-icons-kit", module)
           CameraAlt
         </div>
         <div>
-          <Cancel color={COLOR} size={SIZE} />
-          Cancel
+          <CancelAlt color={COLOR} size={SIZE} />
+          CancelAlt
         </div>
         <div>
-          <CardBroken color={COLOR} size={SIZE} />
-          CardBroken
+          <CardBrokenAlt color={COLOR} size={SIZE} />
+          CardBrokenAlt
         </div>
         <div>
-          <Copy color={COLOR} size={SIZE} />
-          Copy
-        </div>
-        <div>
-          <CreditCard color={COLOR} size={SIZE} />
-          CreditCard
+          <CreditCardAlt color={COLOR} size={SIZE} />
+          CreditCardAlt
         </div>
         <div>
           <Delete color={COLOR} size={SIZE} />
@@ -217,16 +211,16 @@ storiesOf("andcards-icons-kit", module)
           DeletedAlt
         </div>
         <div>
-          <Done color={COLOR} size={SIZE} />
-          Done
+          <DoneAlt color={COLOR} size={SIZE} />
+          DoneAlt
         </div>
         <div>
           <EditAlt color={COLOR} size={SIZE} />
           EditAlt
         </div>
         <div>
-          <Email color={COLOR} size={SIZE} />
-          Email
+          <EmailAlt color={COLOR} size={SIZE} />
+          EmailAlt
         </div>
         <div>
           <Favorites color={COLOR} size={SIZE} />
@@ -237,12 +231,12 @@ storiesOf("andcards-icons-kit", module)
           FavoritesAlt
         </div>
         <div>
-          <FixedDesk color={COLOR} size={SIZE} />
-          FixedDesk
+          <FixedDeskAlt color={COLOR} size={SIZE} />
+          FixedDeskAlt
         </div>
         <div>
-          <HotDesk color={COLOR} size={SIZE} />
-          HotDesk
+          <HotDeskAlt color={COLOR} size={SIZE} />
+          HotDeskAlt
         </div>
         <div>
           <Info color={COLOR} size={SIZE} />
@@ -253,16 +247,16 @@ storiesOf("andcards-icons-kit", module)
           InfoAlt
         </div>
         <div>
-          <Kitchen color={COLOR} size={SIZE} />
-          Kitchen
+          <KitchenAlt color={COLOR} size={SIZE} />
+          KitchenAlt
         </div>
         <div>
-          <Like color={COLOR} size={SIZE} />
-          Like
+          <LikeAlt color={COLOR} size={SIZE} />
+          LikeAlt
         </div>
         <div>
-          <List color={COLOR} size={SIZE} />
-          List
+          <ListAlt color={COLOR} size={SIZE} />
+          ListAlt
         </div>
         <div>
           <ListView color={COLOR} size={SIZE} />
@@ -281,16 +275,16 @@ storiesOf("andcards-icons-kit", module)
           LocationAlt
         </div>
         <div>
-          <Locker color={COLOR} size={SIZE} />
-          Locker
+          <LockerAlt color={COLOR} size={SIZE} />
+          LockerAlt
         </div>
         <div>
-          <Logout color={COLOR} size={SIZE} />
-          Logout
+          <LogoutAlt color={COLOR} size={SIZE} />
+          LogoutAlt
         </div>
         <div>
-          <MeetingRoom color={COLOR} size={SIZE} />
-          MeetingRoom
+          <MeetingRoomAlt color={COLOR} size={SIZE} />
+          MeetingRoomAlt
         </div>
         <div>
           <Membership color={COLOR} size={SIZE} />
@@ -317,60 +311,60 @@ storiesOf("andcards-icons-kit", module)
           NoticesAlt
         </div>
         <div>
-          <Parking color={COLOR} size={SIZE} />
-          Parking
+          <ParkingAlt color={COLOR} size={SIZE} />
+          ParkingAlt
         </div>
         <div>
-          <Pass color={COLOR} size={SIZE} />
-          Pass
+          <PassAlt color={COLOR} size={SIZE} />
+          PassAlt
         </div>
         <div>
-          <Phone color={COLOR} size={SIZE} />
-          Phone
+          <PhoneAlt color={COLOR} size={SIZE} />
+          PhoneAlt
         </div>
         <div>
-          <Photos color={COLOR} size={SIZE} />
-          Photos
+          <PhotosAlt color={COLOR} size={SIZE} />
+          PhotosAlt
         </div>
         <div>
-          <Pinned color={COLOR} size={SIZE} />
-          Pinned
+          <PinAlt color={COLOR} size={SIZE} />
+          PinAlt
         </div>
         <div>
-          <Printer color={COLOR} size={SIZE} />
-          Printer
+          <PrinterAlt color={COLOR} size={SIZE} />
+          PrinterAlt
         </div>
         <div>
-          <Remove color={COLOR} size={SIZE} />
-          Remove
+          <RemoveAlt color={COLOR} size={SIZE} />
+          RemoveAlt
         </div>
         <div>
-          <ResetSetting color={COLOR} size={SIZE} />
-          ResetSetting
+          <ResetSettingAlt color={COLOR} size={SIZE} />
+          ResetSettingAlt
         </div>
         <div>
-          <RoomBooking color={COLOR} size={SIZE} />
-          RoomBooking
+          <RoomBookingAlt color={COLOR} size={SIZE} />
+          RoomBookingAlt
         </div>
         <div>
-          <RotateLeft color={COLOR} size={SIZE} />
-          RotateLeft
+          <RotateLeftAlt color={COLOR} size={SIZE} />
+          RotateLeftAlt
         </div>
         <div>
-          <RotateRight color={COLOR} size={SIZE} />
-          RotateRight
+          <RotateRightAlt color={COLOR} size={SIZE} />
+          RotateRightAlt
         </div>
         <div>
-          <RoundTheClock color={COLOR} size={SIZE} />
-          RoundTheClock
+          <RoundTheClockAlt color={COLOR} size={SIZE} />
+          RoundTheClockAlt
         </div>
         <div>
-          <Save color={COLOR} size={SIZE} />
-          Save
+          <SaveAlt color={COLOR} size={SIZE} />
+          SaveAlt
         </div>
         <div>
-          <Search color={COLOR} size={SIZE} />
-          Search
+          <SearchAlt color={COLOR} size={SIZE} />
+          SearchAlt
         </div>
         <div>
           <Settings color={COLOR} size={SIZE} />
@@ -397,28 +391,24 @@ storiesOf("andcards-icons-kit", module)
           Statistics
         </div>
         <div>
-          <Subscribe color={COLOR} size={SIZE} />
-          Subscribe
+          <SubscribeAlt color={COLOR} size={SIZE} />
+          SubscribeAlt
         </div>
         <div>
-          <Switch color={COLOR} size={SIZE} />
-          Switch
+          <SwitchAlt color={COLOR} size={SIZE} />
+          SwitchAlt
         </div>
         <div>
-          <Tablet color={COLOR} size={SIZE} />
-          Tablet
+          <TabletAlt color={COLOR} size={SIZE} />
+          TabletAlt
         </div>
         <div>
-          <Time color={COLOR} size={SIZE} />
-          Time
+          <TimeAlt color={COLOR} size={SIZE} />
+          TimeAlt
         </div>
         <div>
-          <Translation color={COLOR} size={SIZE} />
-          Translation
-        </div>
-        <div>
-          <Triangle color={COLOR} size={SIZE} />
-          Triangle
+          <TranslationAlt color={COLOR} size={SIZE} />
+          TranslationAlt
         </div>
         <div>
           <User color={COLOR} size={SIZE} />
@@ -429,8 +419,8 @@ storiesOf("andcards-icons-kit", module)
           UserAlt
         </div>
         <div>
-          <UserInvite color={COLOR} size={SIZE} />
-          UserInvite
+          <UserInviteAlt color={COLOR} size={SIZE} />
+          UserInviteAlt
         </div>
         <div>
           <Users color={COLOR} size={SIZE} />
@@ -441,12 +431,12 @@ storiesOf("andcards-icons-kit", module)
           UsersAlt
         </div>
         <div>
-          <Warning color={COLOR} size={SIZE} />
-          Warning
+          <WarningAlt color={COLOR} size={SIZE} />
+          WarningAlt
         </div>
         <div>
-          <World color={COLOR} size={SIZE} />
-          World
+          <WorldAlt color={COLOR} size={SIZE} />
+          WorldAlt
         </div>
       </div>
     ))
@@ -588,7 +578,7 @@ storiesOf("andcards-icons-kit", module)
     ))
   )
   .add(
-    "Playground",
+    "Usage Examples",
     withInfo("")(() => (
       <div
         style={{
@@ -597,7 +587,7 @@ storiesOf("andcards-icons-kit", module)
         }}
       >
         <div style={{ padding: 5 }}>
-          <Add
+          <AddAlt
             color="#ffffff"
             size={SIZE}
             style={{ backgroundColor: "#0092cc" }}
@@ -605,7 +595,7 @@ storiesOf("andcards-icons-kit", module)
           <span style={{ padding: 5 }}>Blue</span>
         </div>
         <div style={{ padding: 5 }}>
-          <Add
+          <AddAlt
             color="#ffffff"
             size={2 * SIZE}
             style={{ backgroundColor: "#e7043c" }}
@@ -613,7 +603,7 @@ storiesOf("andcards-icons-kit", module)
           <span style={{ padding: 5 }}>Red 2x</span>
         </div>
         <div style={{ padding: 5 }}>
-          <Add
+          <AddAlt
             color="#ffffff"
             size={3 * SIZE}
             style={{ backgroundColor: "#ffd500" }}
@@ -621,7 +611,7 @@ storiesOf("andcards-icons-kit", module)
           <span style={{ padding: 5 }}>Yellow 3x</span>
         </div>
         <div style={{ padding: 5 }}>
-          <Add
+          <AddAlt
             color="#ffffff"
             size={SIZE}
             style={{ backgroundColor: "#00994d" }}
