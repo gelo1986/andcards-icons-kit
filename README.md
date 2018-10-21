@@ -33,7 +33,7 @@ Designed for:
 ```
 yarn add andcards-icons-kit
 
-// In case you don't have. Only for React Native.
+// In case you don't have yet. Only for React Native.
 yarn add react-native-svg
 react-native link react-native-svg
 ```
