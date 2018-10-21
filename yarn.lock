@@ -4804,7 +4804,7 @@ supports-color@^5.3.0:
   dependencies:
     has-flag "^3.0.0"
 
-svgs@^3.1.2:
+svgs@^3.3.1:
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/svgs/-/svgs-3.3.1.tgz#10d9495077cf89dfebea682746cceb9b17d56fd2"
   dependencies:

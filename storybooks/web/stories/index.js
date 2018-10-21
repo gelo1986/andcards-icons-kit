@@ -450,7 +450,7 @@ storiesOf("andcards-icons-kit", module)
           fontFamily: "sans-serif",
           fontSize: 10,
           textAlign: "center",
-          gridGap: 30,
+          gridGap: 40,
           gridTemplateColumns: "repeat(auto-fit, 50px)"
         }}
       >

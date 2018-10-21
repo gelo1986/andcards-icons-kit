@@ -5957,7 +5957,7 @@ svgo@^0.7.0:
     sax "~1.2.1"
     whet.extend "~0.9.9"
 
-svgs@^3.1.2:
+svgs@^3.3.1:
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/svgs/-/svgs-3.3.1.tgz#10d9495077cf89dfebea682746cceb9b17d56fd2"
   dependencies:
