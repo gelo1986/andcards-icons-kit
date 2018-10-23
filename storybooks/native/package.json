@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "expo": "^25.0.0",
-    "react": "16.2.0",
+    "react": "16.6.0",
     "react-native": "0.52.0",
     "svgs": "^3.3.1"
   }
