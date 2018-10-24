@@ -18,7 +18,7 @@
   },
   "peerDependencies": {
     "prop-types": "^15.0.0",
-    "react": "^16.0.0",
+    "react": "^16.6.0",
     "react-native": "^0.50.0",
     "svgs": "^3.0.0"
   },
@@ -43,7 +43,7 @@
     "mocha": "^5.0.4",
     "prettier": "^1.14.3",
     "prop-types": "^15.5.10",
-    "react": "^16.0.0",
+    "react": "^16.6.0",
     "react-native": "^0.57.3",
     "rimraf": "^2.3.4",
     "svgs": "^3.3.1"
