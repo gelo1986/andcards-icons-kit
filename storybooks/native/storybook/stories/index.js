@@ -74,7 +74,7 @@ import PinAlt from "andcards-icons-kit/PinAlt";
 import PrinterAlt from "andcards-icons-kit/PrinterAlt";
 import Redhat from "andcards-icons-kit/Redhat";
 import RemoveAlt from "andcards-icons-kit/RemoveAlt";
-import ResetSettingAlt from "andcards-icons-kit/ResetSettingAlt";
+import ResetAlt from "andcards-icons-kit/ResetAlt";
 import RoomBookingAlt from "andcards-icons-kit/RoomBookingAlt";
 import RotateLeftAlt from "andcards-icons-kit/RotateLeftAlt";
 import RotateRightAlt from "andcards-icons-kit/RotateRightAlt";
@@ -171,7 +171,7 @@ storiesOf("andcards-icons-kit", module)
       <PinAlt color={COLOR} size={SIZE} onPress={action("clicked")} />
       <PrinterAlt color={COLOR} size={SIZE} onPress={action("clicked")} />
       <RemoveAlt color={COLOR} size={SIZE} onPress={action("clicked")} />
-      <ResetSettingAlt color={COLOR} size={SIZE} onPress={action("clicked")} />
+      <ResetAlt color={COLOR} size={SIZE} onPress={action("clicked")} />
       <RoomBookingAlt color={COLOR} size={SIZE} onPress={action("clicked")} />
       <RotateLeftAlt color={COLOR} size={SIZE} onPress={action("clicked")} />
       <RotateRightAlt color={COLOR} size={SIZE} onPress={action("clicked")} />

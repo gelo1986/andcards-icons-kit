@@ -75,7 +75,7 @@ import Pinterest from "andcards-icons-kit/Pinterest";
 import PrinterAlt from "andcards-icons-kit/PrinterAlt";
 import Redhat from "andcards-icons-kit/Redhat";
 import RemoveAlt from "andcards-icons-kit/RemoveAlt";
-import ResetSettingAlt from "andcards-icons-kit/ResetSettingAlt";
+import ResetAlt from "andcards-icons-kit/ResetAlt";
 import RoomBookingAlt from "andcards-icons-kit/RoomBookingAlt";
 import RotateLeftAlt from "andcards-icons-kit/RotateLeftAlt";
 import RotateRightAlt from "andcards-icons-kit/RotateRightAlt";
@@ -339,8 +339,8 @@ storiesOf("andcards-icons-kit", module)
           RemoveAlt
         </div>
         <div>
-          <ResetSettingAlt color={COLOR} size={SIZE} />
-          ResetSettingAlt
+          <ResetAlt color={COLOR} size={SIZE} />
+          ResetAlt
         </div>
         <div>
           <RoomBookingAlt color={COLOR} size={SIZE} />
