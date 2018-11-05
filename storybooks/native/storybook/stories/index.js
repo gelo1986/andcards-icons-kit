@@ -35,6 +35,8 @@ import Facetime from "andcards-icons-kit/Facetime";
 import FacetimeAlt from "andcards-icons-kit/FacetimeAlt";
 import Favorites from "andcards-icons-kit/Favorites";
 import FavoritesAlt from "andcards-icons-kit/FavoritesAlt";
+import Feed from "andcards-icons-kit/Feed";
+import FeedAlt from "andcards-icons-kit/FeedAlt";
 import FixedDeskAlt from "andcards-icons-kit/FixedDeskAlt";
 import Google from "andcards-icons-kit/Google";
 import Github from "andcards-icons-kit/Github";
@@ -144,6 +146,8 @@ storiesOf("andcards-icons-kit", module)
       <EmailAlt color={COLOR} size={SIZE} onPress={action("clicked")} />
       <Favorites color={COLOR} size={SIZE} onPress={action("clicked")} />
       <FavoritesAlt color={COLOR} size={SIZE} onPress={action("clicked")} />
+      <Feed color={COLOR} size={SIZE} onPress={action("clicked")} />
+      <FeedAlt color={COLOR} size={SIZE} onPress={action("clicked")} />
       <FixedDeskAlt color={COLOR} size={SIZE} onPress={action("clicked")} />
       <HotDeskAlt color={COLOR} size={SIZE} onPress={action("clicked")} />
       <Info color={COLOR} size={SIZE} onPress={action("clicked")} />
