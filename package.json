@@ -10,7 +10,7 @@
     "storybook-ios": "cd ./storybooks/native && npm run ios",
     "storybook-android": "cd ./storybooks/native && npm run android",
     "clean": "rimraf lib",
-    "lint": "eslint  --ext .js  --ext .jsx src",
+    "lint": "eslint --ext .js --ext .jsx src",
     "test": "mocha --recursive --compilers js:babel-core/register",
     "build": "npm run lint && npm run clean && babel src --out-dir lib && npm test && cp -f LICENSE ./lib/LICENSE && cp -f ./package-lib.json ./lib/package.json",
     "release": "npm run build && npm run storybook-web-build",

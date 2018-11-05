@@ -5,7 +5,7 @@
   "scripts": {
     "storybook-web-watch": "babel ../../src --out-dir=./lib --watch",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook -o ../../docs"
+    "build-storybook": "node_modules/.bin/build-storybook -o ../../docs"
   },
   "dependencies": {
     "prop-types": "^15.5.10",
