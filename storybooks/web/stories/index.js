@@ -49,6 +49,7 @@ import KakaoPlus from "andcards-icons-kit/KakaoPlus";
 import Kakaotalk from "andcards-icons-kit/Kakaotalk";
 import KitchenAlt from "andcards-icons-kit/KitchenAlt";
 import LikeAlt from "andcards-icons-kit/LikeAlt";
+import LinkAlt from "andcards-icons-kit/LinkAlt";
 import Linkedin from "andcards-icons-kit/Linkedin";
 import LinkedinAlt from "andcards-icons-kit/LinkedinAlt";
 import ListAlt from "andcards-icons-kit/ListAlt";
@@ -104,6 +105,7 @@ import UserAlt from "andcards-icons-kit/UserAlt";
 import UserInviteAlt from "andcards-icons-kit/UserInviteAlt";
 import Users from "andcards-icons-kit/Users";
 import UsersAlt from "andcards-icons-kit/UsersAlt";
+import Verified from "andcards-icons-kit/Verified";
 import Viber from "andcards-icons-kit/Viber";
 import WarningAlt from "andcards-icons-kit/WarningAlt";
 import Whatsapp from "andcards-icons-kit/Whatsapp";
@@ -263,6 +265,10 @@ storiesOf("andcards-icons-kit", module)
         <div>
           <LikeAlt color={COLOR} size={SIZE} />
           LikeAlt
+        </div>
+        <div>
+          <LinkAlt color={COLOR} size={SIZE} />
+          LinkAlt
         </div>
         <div>
           <ListAlt color={COLOR} size={SIZE} />
@@ -447,6 +453,10 @@ storiesOf("andcards-icons-kit", module)
         <div>
           <WorldAlt color={COLOR} size={SIZE} />
           WorldAlt
+        </div>
+        <div>
+          <Verified color={COLOR} size={SIZE} />
+          Verified
         </div>
       </div>
     ))
