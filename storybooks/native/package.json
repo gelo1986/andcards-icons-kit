@@ -1,6 +1,6 @@
 {
   "name": "native",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "private": true,
   "devDependencies": {
     "@storybook/addon-actions": "^4.0.0",
