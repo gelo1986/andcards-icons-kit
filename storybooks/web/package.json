@@ -14,7 +14,7 @@
     "svgs": "^3.3.1"
   },
   "devDependencies": {
-    "@storybook/addon-info": "^4.0.8",
+    "@storybook/addon-info": "^4.0.9",
     "@storybook/react": "4.0.8",
     "babel": "^6.3.26",
     "babel-cli": "^6.11.4",
