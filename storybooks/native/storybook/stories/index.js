@@ -40,6 +40,7 @@ import FeedAlt from "andcards-icons-kit/FeedAlt";
 import FixedDeskAlt from "andcards-icons-kit/FixedDeskAlt";
 import Google from "andcards-icons-kit/Google";
 import Github from "andcards-icons-kit/Github";
+import Home from "andcards-icons-kit/Home";
 import HotDeskAlt from "andcards-icons-kit/HotDeskAlt";
 import Info from "andcards-icons-kit/Info";
 import InfoAlt from "andcards-icons-kit/InfoAlt";
@@ -151,6 +152,7 @@ storiesOf("andcards-icons-kit", module)
       <Feed color={COLOR} size={SIZE} onPress={action("clicked")} />
       <FeedAlt color={COLOR} size={SIZE} onPress={action("clicked")} />
       <FixedDeskAlt color={COLOR} size={SIZE} onPress={action("clicked")} />
+      <Home color={COLOR} size={SIZE} onPress={action("clicked")} />
       <HotDeskAlt color={COLOR} size={SIZE} onPress={action("clicked")} />
       <Info color={COLOR} size={SIZE} onPress={action("clicked")} />
       <KitchenAlt color={COLOR} size={SIZE} onPress={action("clicked")} />
