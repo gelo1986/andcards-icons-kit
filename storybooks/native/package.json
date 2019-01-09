@@ -4,7 +4,7 @@
   "private": true,
   "devDependencies": {
     "@storybook/addon-actions": "^4.1.6",
-    "@storybook/addon-links": "^4.1.4",
+    "@storybook/addon-links": "^4.1.6",
     "@storybook/react-native": "^4.1.4",
     "babel": "^6.3.26",
     "babel-cli": "^6.11.4",
